@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Configurator</title>
+</head>
+<body>
+<h1>Car Configurator Page</h1>
+<form method="POST">
+    <label>Body Kit:
+        <select name="body_kit">
+            <option value="Standard">Standard</option>
+            <option value="Sport">Sport</option>
+            <option value="Racing">Racing</option>
+        </select>
+    </label>
+    <br>
+    <button type="submit">Save Configuration</button>
+</form>
+
+{% if body_kit %}
+<p>You selected: {{ body_kit }}</p>
+{% endif %}
+</body>
+</html>
