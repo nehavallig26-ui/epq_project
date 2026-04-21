@@ -1,0 +1,68 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #38bdf8;
+}
+
+/* Forms */
+form {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Buttons */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* Cards */
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* Results */
+.result {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
