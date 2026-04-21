@@ -9,8 +9,7 @@ BASE_CD = 0.30       # base drag coefficient
 BASE_CL = -0.10      # base lift coefficient (negative = downforce)
 
 
-# -----------------------
-# Helper functions
+
 # -----------------------
 def modify_drag(body_kit, spoiler):
     cd = BASE_CD
@@ -72,7 +71,7 @@ def calculate_aero(config):
     # Downforce
     downforce = 0.5 * AIR_DENSITY * speed**2 * abs(cl) * FRONTAL_AREA
 
-    # Efficiency metric (nice for your EPQ)
+    # Efficiency metric
     efficiency = downforce / drag if drag != 0 else 0
 
     return {
